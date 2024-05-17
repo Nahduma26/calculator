@@ -1,0 +1,35 @@
+.document {
+    display: flex;
+}
+
+.text {
+    flex: 1;
+    align-self: flex-end;
+}
+
+.screen {
+    display: flex;
+    background-color: black;
+    flex: 1;
+}
+
+.calculator {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh; 
+    width: 100vw; 
+    background-color: white;
+
+}
+
+.calculatorRow {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+.button {
+    border: 1px solid black;
+    flex: 1;
+}
